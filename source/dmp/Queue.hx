@@ -12,6 +12,7 @@ extern class Queue {
     public var songs:Array<Song>;
     public var nowPlaying:Song;
     public var destroyed:Bool;
+    public var paused:Bool;
     public var repeatMode:RepeatMode;
     public var connection:Dynamic;
     public var data:Dynamic;
