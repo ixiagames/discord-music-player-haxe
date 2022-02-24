@@ -22,6 +22,7 @@ extern class Queue {
     public function playlist(search:EitherType<Playlist, String>, ?options:PlaylistOptions):Promise<Playlist>;
     public function skip():Song;
     public function stop():Void;
+    public function seek(time:Float):Bool;
     public function setPaused(state:Bool):Bool;
     public function setRepeatMode(mode:RepeatMode):Bool;
     public function setData(data:Dynamic):Void;
